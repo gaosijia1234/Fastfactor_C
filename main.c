@@ -14,6 +14,8 @@ int main(int argc, char **argv) {
     int numberCPU = 16; // since professor Reed has 16 CPUs
     int child_pipes[numberCPU]; // an array of pipes for children to write
 
+//    printf("%s/n", argv[0]);
+
     //------------------------------ read from command line ------------------------------
     // if no input at all
     if (argc < 1){
@@ -102,4 +104,10 @@ int main(int argc, char **argv) {
         }
         printf("\n");
     }
+
+if (fork() == 0){
+    printf("hi");
+}
+printf("bye");
+
 }
