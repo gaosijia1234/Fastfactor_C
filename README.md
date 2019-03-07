@@ -11,14 +11,15 @@ cat nums\
 12\
 13\
 4\
-if we run\
+if we run
 
 fastfactor < nums\
-we would get\
+we would get
 
 12: 1 2 3 4 6 12\
 13: 1 13\
-4: 1 2 4\
+4: 1 2 4
+
 # Skills Used 
 fork()\
 pipe()
